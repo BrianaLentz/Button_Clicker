@@ -1,0 +1,108 @@
+* {
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.body {
+    width: 80%;
+    height: 80%;
+}
+.nav-bar {
+    background-color: rgb(161, 195, 232);
+    color: black;
+    height: 80px;
+    width: 70%;
+}
+.nav-bar span {
+    font-size: 200%;
+    font-weight: 600;
+}
+.nav-bar input {
+    border: 3px solid black;
+}
+.nav-bar button {
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px rgb(58, 58, 58);
+    color: whitesmoke;
+    padding: 5px;
+}
+.main-container {
+    width: 70%;
+    display: flex;
+}
+.col {
+    width: 60%;
+
+}
+.box1, .box2 {
+    border: 3px solid black;
+    margin: 20px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    
+    
+}
+.box3 {
+    border: 3px solid black;
+    margin: 20px;
+    width: 275px;
+    height: 125px;
+}
+.box3 p {
+    padding: 5px;
+    margin: 15px 0px 10px 15px;
+    font-weight: 700;
+}
+.box3 span {
+    font-size: 150%;
+}
+.addDef {
+    background-color: gold;
+    padding: 8px 25px;
+    margin: 15px 0px 0px 60px;
+}
+.row {
+    width: 25%;
+    display: inline-block;
+}
+.row1  {
+    padding-top: 90px;
+    font-size: 100%;
+    
+}
+
+.row1 span {
+    text-decoration: underline;
+    color: blue;
+}
+.col h1 {
+    font-size: 250%;
+    margin: 10px 0px 15px 10px ;
+}
+.col h3 {
+    font-weight: 400;
+    margin-left: 30px;
+}
+.col h4 {
+    margin: 5px 0px 20px 10px;
+}
+.col button {
+    background-color: cadetblue;
+    padding: 5px 15px;
+    margin: 10px 0px 20px 10px;
+}
+
+.col1 {
+    flex: 2;
+    
+}

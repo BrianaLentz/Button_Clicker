@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar flex space-between align-center">
+        <span>Dojonary</span>
+        <input type="text">
+        <input onclick="change()" type="button" value="Sign In" id="myButton1"></input>
+    </div>
+    <div class="main-container">
+        <div class="col">
+            <div class="box1">
+                <div class="row">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: <span>ninjas</span></h4>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+                <div class="row1">
+                    <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+            </div></div>
+            <div class="box2">
+                <div class="row">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: <span>ninjas</span></h4>
+                    <button>37 likes</button>
+                </div>
+                <div class="row1">
+                    <p>A<span> programmer </span>who breaks down problems with <span>zen</span>-like focus</p>
+                
+            </div>
+        </div>
+        </div>
+        <div class="col1 flex">
+            <div class="box3 space-between align-center">
+                <p>Dojonary is defined by<span> YOU</span></p>
+                <input type="submit" value="Add Definition"  class="addDef" onclick="addDef(this)"></input>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
